@@ -1,7 +1,7 @@
 {
   "name": "plugin-jsx",
-  "version": "1.0.1",
-  "description": "JSX loader plugin",
+  "version": "0.0.1",
+  "description": "JSX loader plugin using babel",
   "main": "jsx",
   "files": [
     "jsx.js"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floatdrop/plugin-jsx.git"
+    "url": "https://github.com/pm-debjit-biswas/plugin-jsx.git"
   },
   "keywords": [
     "jspm",
@@ -19,18 +19,14 @@
     "loader",
     "plugin"
   ],
-  "author": "Vsevolod Strukchinsky <floatdrop@gmail.com>",
+  "author": "Debjit Biswas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/floatdrop/plugin-jsx/issues"
+    "url": "https://github.com/pm-debjit-biswas/plugin-jsx/issues"
   },
-  "homepage": "https://github.com/floatdrop/plugin-jsx",
-  "devDependencies": {
-    "jspm": "^0.14.0"
-  },
-  "jspm": {
-    "dependencies": {
-      "react-tools": "npm:react-tools@^0.12.2"
-    }
+  "homepage": "https://github.com/pm-debjit-biswas/plugin-jsx",
+  "devDependencies": {},
+  "dependencies": {
+    "babel": "^4.7.1"
   }
 }

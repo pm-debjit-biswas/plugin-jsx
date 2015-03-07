@@ -1,9 +1,9 @@
 'use strict';
 
-var react = require('react-tools');
+var babel = require('babel');
 
 exports.translate = function(load) {
-	var output = react.transformWithDetails(load.source);
+	var output = babel.transform(load.source);
 	load.source = output.code;
 	load.metadata.sourceMap = output.sourceMap;
 };
