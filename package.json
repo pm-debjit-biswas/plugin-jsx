@@ -28,5 +28,10 @@
   "devDependencies": {},
   "dependencies": {
     "babel": "^4.7.1"
+  },
+  "jspm": {
+    "dependencies": {
+      "babel": "npm:babel@^4.7.1"
+    }
   }
 }
