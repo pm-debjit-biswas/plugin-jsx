@@ -27,11 +27,11 @@
   "homepage": "https://github.com/pm-debjit-biswas/plugin-jsx",
   "devDependencies": {},
   "dependencies": {
-    "babel": "^4.7.1"
+    "babel-core": "^4.7.1"
   },
   "jspm": {
     "dependencies": {
-      "babel": "npm:babel@^4.7.1"
+      "babel-core": "npm:babel@^4.7.1"
     }
   }
 }

@@ -1,6 +1,7 @@
 'use strict';
 
-var babel = require('babel');
+// I have no idea why this fails.
+//var babel = require('babel-core');
 
 exports.translate = function(load) {
 	var output = babel.transform(load.source);
